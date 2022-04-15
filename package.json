@@ -1,11 +1,15 @@
 {
-  "name": "mur",
+  "name": "vite-vanillajs-tailwind-starter",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "TAILWIND_MODE=watch vite",
     "build": "TAILWIND_MODE=build vite build",
     "preview": "vite preview"
+  },
+  "engines" : {
+    "npm" : ">=8.5.0",
+    "node" : ">=16.14.2"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.24",
