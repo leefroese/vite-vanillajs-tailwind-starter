@@ -8,7 +8,11 @@
   </head>
   <body>
     <div id="app">
-      <h2>About Page</h2>
+      {{> header active='about' }}
+      <main>
+        <h1>About Page</h1>
+      </main>
+      {{> footer }}
     </div>
     <script type="module" src="/main.js"></script>
     <script type="module" src="/src/pages/about/main.js"></script>
